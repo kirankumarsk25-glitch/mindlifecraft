@@ -31,7 +31,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Image src="./logo1.png" alt="Mind Life Craft Logo" width={50} height={50} style={{ backgroundColor: 'transparent' }} />
+            <Image src="/logo1.png" alt="Mind Life Craft Logo" width={50} height={50} style={{ backgroundColor: 'transparent' }} />
             <Link href="/" className="text-2xl font-bold">
               Mind Life Craft
             </Link>

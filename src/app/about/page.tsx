@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { FaLeaf, FaHeartbeat } from 'react-icons/fa';
 import Header from '../../components/Header';
+import Image from 'next/image';
 import Footer from '../../components/Footer';
 
 export default function About() {

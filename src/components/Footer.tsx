@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FaLeaf, FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center mb-4">
-              <FaLeaf className="h-8 w-8 text-green-400 mr-2" />
+              <Image src="./logo1.png" alt="Mind Life Craft Logo" width={50} height={50} className="bg-white" />
               <h3 className="text-xl font-bold">Mind Life Craft</h3>
             </div>
             <p className="text-gray-300 leading-relaxed">

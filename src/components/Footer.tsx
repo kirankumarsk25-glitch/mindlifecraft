@@ -33,7 +33,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center">
                 <FaPhone className="h-4 w-4 text-green-400 mr-2" />
-                <span className="text-gray-300">+91 XXXXX XXXXX</span>
+                <span className="text-gray-300">+91 1234567891</span>
               </div>
               <div className="flex items-center">
                 <FaEnvelope className="h-4 w-4 text-green-400 mr-2" />
